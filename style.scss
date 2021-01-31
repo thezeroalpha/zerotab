@@ -26,6 +26,7 @@ ul#links {
   display: flex;
   align-items: baseline;
 
+
   > li {
     border: 1px solid transparent;
     border-radius: 5px;
@@ -38,6 +39,9 @@ ul#links {
       max-height: 3em;
       padding: 1em;
     }
+    > a:focus + ul, >a:active + ul {
+      display: block;
+    }
   }
   li {
     list-style: none;
@@ -48,7 +52,6 @@ ul#links {
       display: block;
     }
     ul {
-      background: $lightbg;
       min-width: 300%;
       max-width: 30vw;
       overflow: scroll;
@@ -58,6 +61,8 @@ ul#links {
       z-index: 1;
       top: 5em;
       text-align: left;
+      max-height: 30vh;
+      background: cornflowerblue;
 
       li:hover { background: darken($lightbg, 10%); }
       a {
