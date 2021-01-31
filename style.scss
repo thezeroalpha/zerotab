@@ -1,5 +1,25 @@
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+};
+
 $linkswidth: 10vw;
-$lightbg: #aaaaee;
 body {
   display: flex;
   flex-direction: column;
@@ -24,19 +44,22 @@ ul#links {
   list-style: none;
   padding: 0;
   display: flex;
-  align-items: baseline;
-
+  flex-wrap: wrap;
+  height: max-content;
+  justify-content: center;
 
   > li {
     border: 1px solid transparent;
     border-radius: 5px;
     text-align: center;
-    margin: 0 2em;
+    margin: 0 2em 2em;
+    height: 5em;
+    width: 5em;
 
     img {
       width: 10vw;
-      max-width: 3em;
-      max-height: 3em;
+      height: 3em;
+      width: 3em;
       padding: 1em;
     }
     > a:focus + ul, >a:active + ul {
@@ -46,15 +69,16 @@ ul#links {
   li {
     list-style: none;
     position: relative;
-    background: cornflowerblue;
 
-    &:hover ul {
-      display: block;
+    &:hover {
+      border-bottom-left-radius: 0px;
+      ul {
+        display: block;
+      }
     }
     ul {
-      min-width: 300%;
-      max-width: 30vw;
-      overflow: scroll;
+      width: 20vw;
+      overflow-y: auto;
       position: absolute;
       display: none;
       padding-inline-start: 0;
@@ -62,15 +86,12 @@ ul#links {
       top: 5em;
       text-align: left;
       max-height: 30vh;
-      background: cornflowerblue;
 
-      li:hover { background: darken($lightbg, 10%); }
       a {
         display: block;
         padding-left: 1em;
         text-decoration: none;
         line-height: 35px;
-        color: #ffffff;
         font-size: 80%;
       }
     }

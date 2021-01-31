@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+form input {
+  margin: 1em 0;
+  border: none;
+  width: 40vw;
+  height: 10vh;
+  font-size: 2em;
+  text-align: center;
+}
+form input:focus {
+  outline: none;
+}
+
+ul#links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
+  justify-content: center;
+}
+ul#links > li {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 2em 2em;
+  height: 5em;
+  width: 5em;
+}
+ul#links > li img {
+  width: 10vw;
+  height: 3em;
+  width: 3em;
+  padding: 1em;
+}
+ul#links > li > a:focus + ul, ul#links > li > a:active + ul {
+  display: block;
+}
+ul#links li {
+  list-style: none;
+  position: relative;
+}
+ul#links li:hover {
+  border-bottom-left-radius: 0px;
+}
+ul#links li:hover ul {
+  display: block;
+}
+ul#links li ul {
+  width: 20vw;
+  overflow-y: auto;
+  position: absolute;
+  display: none;
+  padding-inline-start: 0;
+  z-index: 1;
+  top: 5em;
+  text-align: left;
+  max-height: 30vh;
+}
+ul#links li ul a {
+  display: block;
+  padding-left: 1em;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 80%;
+}
+
+::-webkit-scrollbar {
+  width: 0.6em;
+  height: 0.6em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+
+::-webkit-scrollbar-track {
+  background: #b8c0c8;
+}
+
+body {
+  scrollbar-face-color: slategray;
+  scrollbar-track-color: #b8c0c8;
+}
+
+body {
+  background: #111111;
+  color: #727272;
+}
+
+h1 {
+  color: #bfbfbf;
+}
+
+input[type=text] {
+  background: #2b2b2b;
+  color: #727272;
+}
+
+ul#links li {
+  background: #2b2b2b;
+  color: #727272;
+}
+ul#links li ul {
+  background: #2b2b2b;
+}
+ul#links li ul hr {
+  border: 1px dashed #727272;
+}
+ul#links li ul a {
+  color: #a5a5a5;
+}
+ul#links li ul a:hover {
+  color: #d8d8d8;
+}
+ul#links li ul li:hover {
+  background: #444444;
+}
+ul#links li img {
+  filter: invert(90%) hue-rotate(170deg);
+}
+
+/*# sourceMappingURL=dark.css.map */

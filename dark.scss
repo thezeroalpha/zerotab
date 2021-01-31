@@ -1,0 +1,46 @@
+@import "style";
+@include scrollbars(0.6em, slategray);
+$bgcolor: #111111;
+$textcolor: #727272;
+body {
+  background: $bgcolor;
+  color: $textcolor;
+}
+h1 {
+  color: lighten($textcolor, 30%);
+}
+
+input[type=text] {
+  background: lighten($bgcolor, 10%);
+  color: $textcolor;
+}
+
+ul#links {
+  li {
+    background: lighten($bgcolor, 10%);
+    color: $textcolor;
+    ul {
+      background: lighten($bgcolor, 10%);
+
+      hr {
+        border: 1px dashed $textcolor;
+      }
+
+      a {
+        color: lighten($textcolor, 20%);
+
+        &:hover {
+          color: lighten($textcolor, 40%);
+        }
+      }
+      li:hover {
+        background: lighten($bgcolor, 20%);
+      }
+
+    }
+    img {
+      filter: invert(90%) hue-rotate(170deg);
+    }
+  }
+}
+

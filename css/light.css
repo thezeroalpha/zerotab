@@ -26,18 +26,22 @@ ul#links {
   list-style: none;
   padding: 0;
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  height: max-content;
+  justify-content: center;
 }
 ul#links > li {
   border: 1px solid transparent;
   border-radius: 5px;
   text-align: center;
-  margin: 0 2em;
+  margin: 0 2em 2em;
+  height: 5em;
+  width: 5em;
 }
 ul#links > li img {
   width: 10vw;
-  max-width: 3em;
-  max-height: 3em;
+  height: 3em;
+  width: 3em;
   padding: 1em;
 }
 ul#links > li > a:focus + ul, ul#links > li > a:active + ul {
@@ -46,15 +50,16 @@ ul#links > li > a:focus + ul, ul#links > li > a:active + ul {
 ul#links li {
   list-style: none;
   position: relative;
-  background: cornflowerblue;
+}
+ul#links li:hover {
+  border-bottom-left-radius: 0px;
 }
 ul#links li:hover ul {
   display: block;
 }
 ul#links li ul {
-  min-width: 300%;
-  max-width: 30vw;
-  overflow: scroll;
+  width: 20vw;
+  overflow-y: auto;
   position: absolute;
   display: none;
   padding-inline-start: 0;
@@ -62,18 +67,26 @@ ul#links li ul {
   top: 5em;
   text-align: left;
   max-height: 30vh;
-  background: cornflowerblue;
-}
-ul#links li ul li:hover {
-  background: #8080e6;
 }
 ul#links li ul a {
   display: block;
   padding-left: 1em;
   text-decoration: none;
   line-height: 35px;
-  color: #ffffff;
   font-size: 80%;
 }
 
-/*# sourceMappingURL=style.css.map */
+ul#links li {
+  background: cornflowerblue;
+}
+ul#links li ul {
+  background: cornflowerblue;
+}
+ul#links li li:hover {
+  background: #8080e6;
+}
+ul#links li a {
+  color: white;
+}
+
+/*# sourceMappingURL=light.css.map */

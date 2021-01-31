@@ -1,0 +1,15 @@
+@import "style";
+ul#links {
+  li {
+    background: cornflowerblue;
+    ul {
+      background: cornflowerblue;
+    }
+    li:hover {
+      background: darken(#aaaaee, 10%);
+    }
+    a {
+      color: white;
+    }
+  }
+}
