@@ -13,7 +13,7 @@ outlines = "<ul id='links'>\n"
 categories.each_with_index do |(cat, links), i|
   outlines += <<~HTML
     <li>
-      <a title="#{cat.downcase}" href="#" tabindex="#{i + 1}"><img src="img/#{cat.downcase}.svg"></a>
+      <a tabindex="#{i + 1}"><img src="img/#{cat.downcase}.svg"></a>
       <ul>
   HTML
   links.each do |link|
