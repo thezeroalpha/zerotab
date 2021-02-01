@@ -1,9 +1,22 @@
+@keyframes popin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 15vh;
+  max-height: 100vh;
+  margin-bottom: 5vh;
+  width: 80vw;
+  margin: 15vh 0 10vw 10vw;
+  animation: popin 0.3s linear 0.1s;
 }
 
 h1 {
@@ -29,6 +42,7 @@ ul#links {
   flex-wrap: wrap;
   height: max-content;
   justify-content: center;
+  /* Main buttons */
 }
 ul#links > li {
   border: 1px solid transparent;
@@ -38,35 +52,44 @@ ul#links > li {
   height: 5em;
   width: 5em;
 }
+ul#links > li:hover, ul#links > li:focus {
+  border-bottom-left-radius: 0px;
+  outline: none;
+}
 ul#links > li img {
   width: 10vw;
   height: 3em;
   width: 3em;
   padding: 1em;
 }
-ul#links > li > a:focus + ul, ul#links > li > a:active + ul {
-  display: block;
+ul#links > li > a {
+  cursor: initial;
+}
+ul#links > li > a:focus + ul, ul#links > li > a:active + ul, ul#links > li > a:hover + ul {
+  opacity: 1;
+  visibility: visible;
 }
 ul#links li {
   list-style: none;
-  position: relative;
+  /* Links under buttons */
 }
-ul#links li:hover {
-  border-bottom-left-radius: 0px;
-}
-ul#links li:hover ul {
-  display: block;
+ul#links li:hover ul, ul#links li:focus ul, ul#links li:active ul {
+  opacity: 1;
+  visibility: visible;
 }
 ul#links li ul {
-  width: 20vw;
   overflow-y: auto;
-  position: absolute;
-  display: none;
-  padding-inline-start: 0;
-  z-index: 1;
-  top: 5em;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
   text-align: left;
-  max-height: 30vh;
+  margin: -4% 0 0;
+  padding: 0;
+  position: relative;
+  height: content-box;
+  max-height: 20vh;
+  width: 200%;
+  transition: opacity 0.1s;
 }
 ul#links li ul a {
   display: block;
@@ -74,6 +97,24 @@ ul#links li ul a {
   text-decoration: none;
   line-height: 35px;
   font-size: 80%;
+}
+ul#links li.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+ul#links li.separator:hover, ul#links li.separator:focus, ul#links li.separator:active {
+  background: inherit;
+}
+ul#links li.separator::before, ul#links li.separator::after {
+  content: "";
+  flex: 1;
+}
+ul#links li.separator::before {
+  margin-right: 0.25em;
+}
+ul#links li.separator::after {
+  margin-left: 0.25em;
 }
 
 ul#links li {
@@ -87,6 +128,12 @@ ul#links li li:hover {
 }
 ul#links li a {
   color: white;
+}
+ul#links li.separator {
+  color: white;
+}
+ul#links li.separator::before, ul#links li.separator::after {
+  border-bottom: 1px solid white;
 }
 
 /*# sourceMappingURL=light.css.map */

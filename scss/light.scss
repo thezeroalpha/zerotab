@@ -11,5 +11,13 @@ ul#links {
     a {
       color: white;
     }
+
+    &.separator {
+      color: white;
+
+      &::before, &::after {
+        border-bottom: 1px solid white;
+      }
+    }
   }
 }

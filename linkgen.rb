@@ -17,8 +17,8 @@ categories.each_with_index do |(cat, links), i|
       <ul>
   HTML
   links.each do |link|
-    outlines += if link == '-'
-                  "    <hr>\n"
+    outlines += if link.keys.first == '-'
+                  "    <li class=\"separator\">#{link.values.first}</li>\n"
                 else
                   "    <li><a href=\"#{link.values.first}\">#{link.keys.first}</a></li>\n"
                 end

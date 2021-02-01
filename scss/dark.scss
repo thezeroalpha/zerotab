@@ -22,10 +22,6 @@ ul#links {
     ul {
       background: lighten($bgcolor, 10%);
 
-      hr {
-        border: 1px dashed $textcolor;
-      }
-
       a {
         color: lighten($textcolor, 20%);
 
@@ -40,6 +36,14 @@ ul#links {
     }
     img {
       filter: invert(90%) hue-rotate(170deg);
+    }
+
+
+    &.separator {
+      color: lighten($textcolor, 30%);
+      &::before, &::after {
+        border-bottom: 1px dashed $textcolor;
+      }
     }
   }
 }
