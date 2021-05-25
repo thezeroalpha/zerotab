@@ -1,9 +1,16 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # Takes links YAML file on stdin, outputs HTML <ul> on stdout
 require 'yaml'
 
 begin
-  categories = YAML.safe_load($stdin.read)
+  input = $stdin.read
+  if input.empty?
+    warn 'No input provided.'
+    exit 1
+  end
+  categories = YAML.safe_load(input)
 rescue StandardError
   warn "Couldn't parse input."
   exit 1
