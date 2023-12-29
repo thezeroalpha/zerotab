@@ -90,6 +90,7 @@ ul#links li ul {
   max-height: 20vh;
   width: 200%;
   transition: opacity 0.1s;
+  z-index: 1;
 }
 ul#links li ul a {
   display: block;

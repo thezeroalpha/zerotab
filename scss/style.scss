@@ -108,6 +108,7 @@ ul#links {
       max-height: 20vh;
       width: 200%;
       transition: opacity 0.1s;
+      z-index: 1;
 
       a {
         display: block;
