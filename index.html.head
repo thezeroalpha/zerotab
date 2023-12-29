@@ -28,37 +28,3 @@
     <form action="https://search.alex.balgavy.eu/" method="get">
       <input type="text" class="text" value="" name="q" placeholder="Search..." autocomplete="off" tabindex="0">
     </form>
-<ul id='links'>
-<li>
-  <a tabindex="1"><img src="img/news.svg"></a>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/Portal:Current_events">Wikipedia: Current Events</a></li>
-    <li><a href="https://unwrapped.news/">Unwrapped News</a></li>
-    <li><a href="https://brutalist.report/">Brutalist Report</a></li>
-    <li><a href="https://sumi.news">Sumi News</a></li>
-    <li><a href="https://legiblenews.com/">Legible News</a></li>
-    <li><a href="https://miniflux.alex.balgavy.eu/">Miniflux</a></li>
-  </ul>
-</li>
-<li>
-  <a tabindex="2"><img src="img/downloads.svg"></a>
-  <ul>
-    <li><a href="https://rentry.co/megathread">Megathread</a></li>
-    <li><a href="https://rentry.co/firehawk52">Firehawk52</a></li>
-    <li><a href="/ebooks.html">Search Ebooks</a></li>
-    <li><a href="https://www.globalgreyebooks.com/index.html">Global Grey Ebooks</a></li>
-    <li><a href="https://ripped.guide">Ripped Guide</a></li>
-  </ul>
-</li>
-<li>
-  <a tabindex="3"><img src="img/stream.svg"></a>
-  <ul>
-    <li><a href="https://www.themoviedb.org/">The Movie DB</a></li>
-    <li><a href="https://cringemdb.com/">CringeMDB</a></li>
-    <li><a href="https://www.reelscary.com/">Reelscary</a></li>
-    <li><a href="https://www.doesthedogdie.com/">Does the dog die</a></li>
-  </ul>
-</li>
-</ul>
-  </body>
-</html>

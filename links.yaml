@@ -1,110 +1,21 @@
 # I don't vouch for any links on this list
-Education:
-    - VUNet: https://vunet.vu.nl
-    - Canvas: https://canvas.vu.nl
-    - UvA Canvas: https://canvas.uva.nl
-    - UvA Datanose: https://datanose.nl
-    - "Wikipedia: Current Events": https://en.wikipedia.org/wiki/Portal:Current_events
+News:
+    - 'Wikipedia: Current Events': https://en.wikipedia.org/wiki/Portal:Current_events
+    - 'Unwrapped News': https://unwrapped.news/
+    - 'Brutalist Report': https://brutalist.report/
+    - 'Sumi News': https://sumi.news
+    - 'Legible News': https://legiblenews.com/
+    - 'Miniflux': https://miniflux.alex.balgavy.eu/
+
 Downloads:
-    - 1337X: https://1337x.to/home/
-    - RUTracker: http://rutracker.org/forum/index.php
-    - Library Genesis: http://libgen.rs
-    - RARBG: https://rarbg.to/torrents.php
-    - PreDB: https://predb.me
-    - SceneSource: https://scnsrc.me
-    - "-": TV
-    - ETTV: https://www.ettvcentral.com/home/
-    - "-": Apps
-    - AppK'd: http://www.macbed.com/
-    - Mobilism: https://forum.mobilism.org/index.php
-    - FitGirl Repacks: http://fitgirl-repacks.site
-    - "-": Reading
-    - AvaxHome: https://avxhm.se
-    - Sci-Hub: https://sci-hub.se
-    - B-OK: https://b-ok.org
-    - AudioBookBay: http://audiobookbay.nl
+  - 'Megathread': https://rentry.co/megathread
+  - 'Firehawk52': https://rentry.co/firehawk52
+  - 'Search Ebooks': /ebooks.html
+  - 'Global Grey Ebooks': https://www.globalgreyebooks.com/index.html
+  - 'Ripped Guide': https://ripped.guide
+
 Stream:
-    - Cine.to: https://cine.to
-    - YesMovies: https://yesmovies.to
-    - AZMovies: https://azm.to/
-    - Ohh.io: https://ohh.io/
-Reddit:
-    - Reddit: https://old.reddit.com
-    - Saved: https://old.reddit.com/saved
-    - "/r/vim": https://old.reddit.com/r/vim
-    - "/r/commandline": https://old.reddit.com/r/commandline
-    - "/r/privacy": https://old.reddit.com/r/privacy
-    - "/r/stallmanwasright": https://old.reddit.com/r/stallmanwasright
-Code:
-    - "-": Repls
-    - CodePen: https://codepen.io/pens/
-    - Repl.it: https://repl.it/repls
-    - "-": Docs
-    - DevDocs: https://devdocs.io
-    - DevHints: https://devhints.io
-    - "-": Tools
-    - Cdecl: https://cdecl.org
-    - ExplainShell: https://explainshell.com
-    - JSBeautifier: https://beautifier.io/
-    - JSCompress: https://jscompress.com
-    - CSS Compressor: https://csscompressor.com
-    - Cross-browser testing: https://www.browserling.com
-    - Color scheme designer: http://www.paletton.com
-    - Brand Colors: https://brandcolors.net/
-    - Favicon Gen: https://favicon.io
-    - Favic-o-Matic: http://www.favicomatic.com
-    - DougScripts: https://dougscripts.com/
-    - "-": Assets
-    - SVG: https://www.svgrepo.com/
-    - Icons8: https://icons8.com
-    - WhatTheFont: https://www.myfonts.com/WhatTheFont/
-    - Test a font: http://fontfling.com
-    - Font Squirrel: https://www.fontsquirrel.com
-    - GetTheFont: https://www.getthefont.com:443/
-    - DaFont: https://www.dafont.com/
-    - iFonts: https://ifonts.xyz
-Security:
-    - Sploitus: https://sploitus.com
-    - The Eye: https://the-eye.eu/public/
-    - OSINT: https://github.com/jivoi/awesome-osint/blob/master/README.md
-    - Cata-list: https://cata-list.github.io/#/
-    - Hacking: https://github.com/Hack-with-Github/Awesome-Hacking/blob/master/README.md
-    - Sysadmin: https://github.com/n1trux/awesome-sysadmin
-Music:
-    - Genre Cloud: http://everynoise.com/engenremap.html
-    - Song BPM: https://songbpm.com
-    - Riffstation Chords: https://play.riffstation.com
-    - WhoSampled: https://www.whosampled.com/
-    - Acapella Downloads: https://www.acapellas4u.co.uk
-    - VSTorrent: https://vstorrent.net
-    - VSTbase: https://vstbase.org
-    - Audioz: https://audioz.download
-Cloud:
-    - Cryptpad: https://cryptpad.fr
-    - Boring Host: https://boring.host
-    - AnonFile: https://anonfile.com
-    - SolidFiles: https://www.solidfiles.com
-    - Gofile: https://gofile.io
-Tools:
-    - "-": Accounts
-    - 10 Minute Mail: https://10minutemail.net
-    - Mailinator: https://www.mailinator.com
-    - Find a login: http://bugmenot.com
-    - AccountKiller: https://www.accountkiller.com/en/
-    - JustDeleteMe: https://backgroundchecks.org/justdeleteme/
-    - "-": Paste
-    - PrivateBin: https://privatebin.net
-    - Paste.ee: https://paste.ee
-    - Draw: https://www.draw.io
-    - URL unshorten: https://unfurlr.com/
-    - URL shorten: https://anon.to
-    - "-": Virus scan
-    - VirusTotal: https://www.virustotal.com
-    - Jotti: https://virusscan.jotti.org/en
-    - Extract EXIF: http://exif.regex.info/exif.cgi
-    - Pic2Map EXIF Viewer: https://www.pic2map.com
-    - "-": Network
-    - Ping: https://ping.pe
-    - WiFi Passwords: https://www.google.com/maps/d/u/0/viewer?mid=1Z1dI8hoBZSJNWFx2xr_MMxSxSxY&hl=en_US&ll=52.31053860000001%2C4.768274399999996&z=8
-    - DNSDumpster: https://dnsdumpster.com
-    - IP Tools: https://hackertarget.com/ip-tools/
+  - 'The Movie DB': https://www.themoviedb.org/
+  - 'CringeMDB': https://cringemdb.com/
+  - 'Reelscary': https://www.reelscary.com/
+  - 'Does the dog die': https://www.doesthedogdie.com/
